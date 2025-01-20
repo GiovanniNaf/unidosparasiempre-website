@@ -51,7 +51,7 @@ const ClinicalTeam = () => {
       image: "/images/Luis.avif"
     },
     {
-      name: "Dra. Martin Toledo Lievano",
+      name: "Lic. Martin Toledo Lievano",
       position: "Coordinador General",
       degree: "Ced. Prof: 13413292",
       image: "/images/Martin2.avif"

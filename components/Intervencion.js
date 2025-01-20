@@ -2,7 +2,7 @@ import React from 'react';
 
 const ProgramaIntervencion = () => {
   return (
-    <section className="py-20 bg-blue-800">
+    <section className="py-20 bg-blue-800 mh-[100vh]">
       <div className="max-w-7xl mx-auto px-4">
         {/* Título principal */}
         <div className="text-center mb-12">

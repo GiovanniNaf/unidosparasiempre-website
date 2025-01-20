@@ -17,10 +17,10 @@ const tiposDeIngreso = [
 
 const TiposDeIngreso = () => {
   return (
-    <section className="py-20 bg-blue-800">
+    <section className="py-20 bg-blue-800 mh-[90vh]">
       <div className="max-w-7xl mx-auto px-4">
         {/* Título */}
-        <h2 className="text-4xl font-bold text-center mb-8">
+        <h2 className="text-4xl font-bold text-center mb-6">
           <span className="text-white">Tipos de</span> <span className="text-green-500">Ingreso</span>
         </h2>
 
