@@ -12,13 +12,14 @@ import TiposDeIngreso from '@/components/TiposdeIngreso';
 import ModalidadOnline from '@/components/ModOnline';
 import ProgramaIntervencion from '@/components/Intervencion';
 import WhatsHappening from '@/components/WhatsHappening';
+import Layout from '@/components/Layout';
 
 
 export default function Home() {
   return (
     <div>
 
-      <Header />
+      <Layout>
       <Banner />
       {/* Sección Principal - Hero con imagen de fondo y degradado */}
       <section className="relative bg-cover bg-center h-[50vh]" style={{ backgroundImage: "url('/images/hero-bg.jpeg')" }}>
@@ -58,7 +59,7 @@ export default function Home() {
     <WhatsHappening/>
 
       {/* Footer */}
-      <Footer />
+      </Layout>
     </div>
   )
 }

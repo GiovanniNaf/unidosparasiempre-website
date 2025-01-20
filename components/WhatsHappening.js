@@ -24,7 +24,7 @@ const WhatsHappening = () => {
             <div className="bg-white p-6 rounded-lg shadow-lg w-full max-w-96 sm:max-w-full mx-auto">
               <div className="relative w-full overflow-hidden rounded-lg" style={{ paddingTop: "56.25%" }}>
                 <iframe
-                  src="https://drive.google.com/file/d/1sOwVgo2gdgiO0UITUgFa_5WrYh4i91wH/preview"
+                  src="https://drive.google.com/file/d/1zkdj2i70BsuSQjUL7tHp6CSgYdZUxCIO/preview"
                   title="Evento 2"
                   frameBorder="0"
                   allow="autoplay"

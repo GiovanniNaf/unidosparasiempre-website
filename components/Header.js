@@ -9,7 +9,7 @@ const Header = () => {
   };
 
   return (
-    <header className="bg-blue-600 text-white">
+    <header className="bg-blue-700 text-white">
       <div className="max-w-7xl mx-auto px-4">
         {/* Barra superior */}
         <div className="flex justify-between items-center py-4">

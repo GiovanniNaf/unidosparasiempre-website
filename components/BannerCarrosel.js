@@ -32,7 +32,7 @@ const HeaderBannerCarrousel = () => {
   }, []);
 
   return (
-    <section className="relative w-full h-[75px] bg-green-600 overflow-hidden">
+    <section className="relative w-full h-[75px] bg-white overflow-hidden">
       {/* Contenedor del carrousel con deslizamiento */}
       <div
         className="flex transition-transform duration-1000"
@@ -46,7 +46,7 @@ const HeaderBannerCarrousel = () => {
             className="w-full flex-shrink-0 h-full flex flex-col justify-center items-center text-center px-4 py-2"
           >
             <h2 className="text-2xl font-bold text-gray-800">{banner.title}</h2>
-            <p className="text-sm text-white mt-2">{banner.description}</p>
+            <p className="text-sm text-blue-900 mt-2">{banner.description}</p>
           </div>
         ))}
       </div>
