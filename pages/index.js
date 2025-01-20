@@ -23,7 +23,7 @@ export default function Home() {
       <Banner />
       {/* Sección Principal - Hero con imagen de fondo y degradado */}
       <section className="relative bg-cover bg-center h-[50vh]" style={{ backgroundImage: "url('/images/hero-bg.jpg')" }}>
-        <div className="absolute inset-0 bg-gradient-to-t from-blue-700 via-transparent to-transparent opacity-100"></div>
+        <div className="absolute inset-0 bg-gradient-to-t from-blue-700 via-transparent to-transparent opacity-75"></div>
         <div className="relative z-10 max-w-7xl mx-auto flex items-center justify-center h-full text-center text-white px-4 sm:px-6 lg:px-8">
           <div>
             <h2 className="text-4xl font-bold tracking-wide sm:text-5xl">Unidos Para Siempre</h2>
