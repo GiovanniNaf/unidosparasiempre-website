@@ -81,7 +81,9 @@ const ModalidadOnline = () => {
         {/* Botón de llamada a la acción */}
         <div className="text-center">
           <a 
-            href="/agendar" 
+            href="/Online"
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-block bg-gradient-to-r from-green-400 to-green-500 text-white py-4 px-8 rounded-full text-xl font-semibold hover:from-green-500 hover:to-green-600 transform hover:scale-105 transition-all duration-300 shadow-lg hover:shadow-xl"
           >
             Agenda tu primera sesión

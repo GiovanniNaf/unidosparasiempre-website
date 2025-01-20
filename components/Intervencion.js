@@ -12,7 +12,7 @@ const ProgramaIntervencion = () => {
         </div>
 
         {/* Contenido del programa */}
-        <div className="bg-blue-200 rounded-lg shadow-lg p-8">
+        <div className="bg-blue-100 rounded-lg shadow-lg p-8">
           <h3 className="text-2xl font-semibold text-gray-800 mb-4">¿Qué es?</h3>
           <p className="text-gray-700 mb-6">
             Es un modelo de intervención para acercarse al adicto ayudando a las familias a lograr que sus seres queridos puedan vencer sus resistencias y convencerlas de recibir tratamiento.
@@ -33,7 +33,7 @@ const ProgramaIntervencion = () => {
           <div className="text-center">
             <a
               href="/contacto"
-              className="bg-green-500 text-white py-3 px-8 rounded-lg text-lg font-semibold hover:bg-green-600 transition duration-300"
+              className="bg-green-500 text-white py-3 px-8 rounded-lg text-base font-semibold hover:bg-green-600 transition duration-300"
             >
               Llame a nuestra línea de ayuda
             </a>
