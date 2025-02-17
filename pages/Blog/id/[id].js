@@ -57,7 +57,7 @@ const BlogPost = () => {
     return (
       <div className="max-w-7xl mx-auto px-4 py-12 text-center">
         <h1 className="text-2xl font-bold text-gray-800">Post no encontrado</h1>
-        <Link href="/blog">
+        <Link href="/Blog">
           <span className="text-blue-600 font-medium hover:text-blue-700 transition-colors">
             Volver al blog
           </span>
@@ -99,7 +99,7 @@ const BlogPost = () => {
               dangerouslySetInnerHTML={{ __html: post.content }}
             />
             <div className="mt-6">
-              <Link href="/blog">
+              <Link href="/Blog">
                 <span className="text-blue-600 font-medium hover:text-blue-700 transition-colors">
                   ← Volver al blog
                 </span>

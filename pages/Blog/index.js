@@ -79,7 +79,7 @@ const BlogIndex = () => {
                 <p className="text-gray-600 mb-4">
                   {post.excerpt}
                 </p>
-                <Link href={`/blog/id/${post.id}`}>
+                <Link href={`/Blog/id/${post.id}`}>
                   <span className="text-blue-600 font-medium hover:text-blue-700 transition-colors">
                     Leer más →
                   </span>
