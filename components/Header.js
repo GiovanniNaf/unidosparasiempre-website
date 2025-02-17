@@ -66,7 +66,7 @@ const Header = () => {
               <li><a href="/" className="block py-2 px-4 hover:bg-blue-700 rounded-lg transition-colors">Inicio</a></li>
               <li><a href="/servicios" className="block py-2 px-4 hover:bg-blue-700 rounded-lg transition-colors">Servicios</a></li>
               <li><a href="/testimonios" className="block py-2 px-4 hover:bg-blue-700 rounded-lg transition-colors">Testimonios</a></li>
-              <li><a href="/Blog" className="block py-2 px-4 hover:bg-blue-700 rounded-lg transition-colors">Blog</a></li> {/* Enlace al índice del blog */}
+              <li><a href="/blog" className="block py-2 px-4 hover:bg-blue-700 rounded-lg transition-colors">Blog</a></li> {/* Enlace al índice del blog */}
               <li className="px-4 pt-2">
                 <a 
                   href="/contacto" 
