@@ -23,7 +23,7 @@ const Header = () => {
               <li><a href="/" className="hover:text-yellow-200 transition-colors">Inicio</a></li>
               <li><a href="/servicios" className="hover:text-yellow-200 transition-colors">Servicios</a></li>
               <li><a href="/testimonios" className="hover:text-yellow-200 transition-colors">Testimonios</a></li>
-              <li><a href="/Blog" className="hover:text-yellow-200 transition-colors">Blog</a></li> {/* Aquí se asegura la ruta */}
+              <li><a href="/blog" className="hover:text-yellow-200 transition-colors">Blog</a></li> {/* Aquí se asegura la ruta */}
             </ul>
           </nav>
 

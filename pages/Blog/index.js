@@ -8,27 +8,35 @@ const BlogIndex = () => {
   const blogPosts = [
     {
       id: 1,
-      title: "La Importancia del Apoyo Familiar en la Recuperación",
-      excerpt: "El proceso de recuperación es un camino que no se recorre solo. Descubre cómo el apoyo familiar puede marcar la diferencia...",
+      title: "¿Que es la adiccion a las drogas?",
+      excerpt: "La adicción se define como un trastorno crónico recurrente que se caracteriza por la búsqueda compulsiva de drogas, el uso continuo a pesar de las consecuencias dañinas y cambios duraderos en el cerebro..",
       date: "15 de Enero, 2025",
-      category: "Recuperación",
-      imageUrl: "/images/drogas.webp"
+      category: "Adicciones",
+      imageUrl: "https://cdn.karar.com/news/1639658.jpg"
     },
     {
       id: 2,
-      title: "Técnicas de Mindfulness para la Recuperación",
-      excerpt: "Aprende cómo las técnicas de atención plena pueden ayudarte en tu proceso de rehabilitación y mantener un equilibrio mental...",
+      title: "¿Qué es la coodependencia?",
+      excerpt: "La codependencia propiamente dicha comienza y es evidente en el círculo familiar y / o de pertenencia de un adicto, del que podemos ser parte cualquiera de nosotros...",
       date: "10 de Enero, 2025",
-      category: "Bienestar",
-      imageUrl: "/images/drogas.webp"
+      category: "Emocional",
+      imageUrl: "https://images.delfi.ee/media-api-image-cropper/v1/1e975429-70d0-41df-972c-f080d37d354b.jpg?w=1200&h=800"
     },
     {
       id: 3,
-      title: "Historias de Éxito: Un Camino hacia la Nueva Vida",
-      excerpt: "Conoce las inspiradoras historias de personas que han logrado superar sus adicciones y construir una vida plena...",
-      date: "5 de Enero, 2025",
-      category: "Testimonios",
+      title: "¿Que son las drogas y el alcohol?",
+      excerpt: "Las drogas o el alcohol son agentes naturales o químicos que afectan las funciones del cuerpo de los seres vivientes. Cambian la manera de pensar, actuar o sentir de quienes lo consumen...",
+      date: "6 de Julio, 2022",
+      category: "Adicciones",
       imageUrl: "/images/drogas.webp"
+    },
+    {
+      id: 4,
+      title: "Sindrome de abstinecia",
+      excerpt: "Se define como “grupo de signos y síntomas que aparecen en el individuo como consecuencia de la supresión o reducción del consumo de una droga...",
+      date: "6 de Julio, 2022",
+      category: "Adicciones",
+      imageUrl: "https://fondnika.ru/wp-content/uploads/2018/08/1-8.jpg"
     }
   ];
 
@@ -71,7 +79,7 @@ const BlogIndex = () => {
                 <p className="text-gray-600 mb-4">
                   {post.excerpt}
                 </p>
-                <Link href={`/blog/${post.id}`}>
+                <Link href={`/blog/id/${post.id}`}>
                   <span className="text-blue-600 font-medium hover:text-blue-700 transition-colors">
                     Leer más →
                   </span>
