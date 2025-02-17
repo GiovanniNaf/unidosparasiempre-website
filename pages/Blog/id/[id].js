@@ -1,3 +1,4 @@
+import '../../../app/globals.css';
 import { useRouter } from 'next/router';
 import Header from '@/components/Header'; // Importa el Header
 import Link from 'next/link'; // Para navegación sin recargar la página
